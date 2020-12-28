@@ -11,7 +11,7 @@
     "start": "node dist/example.index.js",
     "upgrade": "node packager.js",
     "prepublish": "tsc",
-    "docs:gen": "bash docs.sh",
+    "docs:gen": "cd docs && bash docs.sh",
     "docs:dev": "cd docs && npm run dev",
     "docs:build": "npm run docs:gen && cd docs && npm run build",
     "docs": "typedoc --out docs src",

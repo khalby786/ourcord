@@ -22,7 +22,7 @@
 
 • `Optional` **animated**: boolean
 
-*Defined in [src/structures/EmojiRaw.ts:13](https://github.com/ourcord/ourcord/blob/1388589/src/structures/EmojiRaw.ts#L13)*
+*Defined in [src/structures/EmojiRaw.ts:13](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/EmojiRaw.ts#L13)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • `Optional` **id**: string
 
-*Defined in [src/structures/EmojiRaw.ts:2](https://github.com/ourcord/ourcord/blob/1388589/src/structures/EmojiRaw.ts#L2)*
+*Defined in [src/structures/EmojiRaw.ts:2](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/EmojiRaw.ts#L2)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • `Optional` **managed**: boolean
 
-*Defined in [src/structures/EmojiRaw.ts:12](https://github.com/ourcord/ourcord/blob/1388589/src/structures/EmojiRaw.ts#L12)*
+*Defined in [src/structures/EmojiRaw.ts:12](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/EmojiRaw.ts#L12)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • `Optional` **name**: string
 
-*Defined in [src/structures/EmojiRaw.ts:3](https://github.com/ourcord/ourcord/blob/1388589/src/structures/EmojiRaw.ts#L3)*
+*Defined in [src/structures/EmojiRaw.ts:3](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/EmojiRaw.ts#L3)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 • `Optional` **require\_colons**: boolean
 
-*Defined in [src/structures/EmojiRaw.ts:11](https://github.com/ourcord/ourcord/blob/1388589/src/structures/EmojiRaw.ts#L11)*
+*Defined in [src/structures/EmojiRaw.ts:11](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/EmojiRaw.ts#L11)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • `Optional` **roles**: Array<string\>
 
-*Defined in [src/structures/EmojiRaw.ts:4](https://github.com/ourcord/ourcord/blob/1388589/src/structures/EmojiRaw.ts#L4)*
+*Defined in [src/structures/EmojiRaw.ts:4](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/EmojiRaw.ts#L4)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 • `Optional` **user**: { avatar?: string ; discriminator?: string ; id?: string ; username?: string  }
 
-*Defined in [src/structures/EmojiRaw.ts:5](https://github.com/ourcord/ourcord/blob/1388589/src/structures/EmojiRaw.ts#L5)*
+*Defined in [src/structures/EmojiRaw.ts:5](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/EmojiRaw.ts#L5)*
 
 #### Type declaration:
 

@@ -37,7 +37,7 @@
 
 •  **attachments**: object
 
-*Defined in [src/structures/MessageRaw.ts:20](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L20)*
+*Defined in [src/structures/MessageRaw.ts:20](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L20)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 •  **author**: [User](_structures_user_.user.md)
 
-*Defined in [src/structures/MessageRaw.ts:11](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L11)*
+*Defined in [src/structures/MessageRaw.ts:11](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L11)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 •  **channel\_id**: string
 
-*Defined in [src/structures/MessageRaw.ts:8](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L8)*
+*Defined in [src/structures/MessageRaw.ts:8](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L8)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 •  **channel\_type**: number
 
-*Defined in [src/structures/MessageRaw.ts:9](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L9)*
+*Defined in [src/structures/MessageRaw.ts:9](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L9)*
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 •  **content**: string \| object
 
-*Defined in [src/structures/MessageRaw.ts:13](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L13)*
+*Defined in [src/structures/MessageRaw.ts:13](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L13)*
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 •  **embed**: RawMessageProps[\"embed\"]
 
-*Defined in [src/structures/MessageRaw.ts:28](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L28)*
+*Defined in [src/structures/MessageRaw.ts:28](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L28)*
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 •  **embeds**: object
 
-*Defined in [src/structures/MessageRaw.ts:21](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L21)*
+*Defined in [src/structures/MessageRaw.ts:21](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L21)*
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 •  **guild\_id**: string
 
-*Defined in [src/structures/MessageRaw.ts:10](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L10)*
+*Defined in [src/structures/MessageRaw.ts:10](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L10)*
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 •  **id**: string
 
-*Defined in [src/structures/MessageRaw.ts:7](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L7)*
+*Defined in [src/structures/MessageRaw.ts:7](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L7)*
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 •  **member**: object
 
-*Defined in [src/structures/MessageRaw.ts:12](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L12)*
+*Defined in [src/structures/MessageRaw.ts:12](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L12)*
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 •  **mention\_channels**: object
 
-*Defined in [src/structures/MessageRaw.ts:19](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L19)*
+*Defined in [src/structures/MessageRaw.ts:19](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L19)*
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 •  **mention\_everyone**: boolean
 
-*Defined in [src/structures/MessageRaw.ts:16](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L16)*
+*Defined in [src/structures/MessageRaw.ts:16](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L16)*
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 •  **mention\_roles**: object
 
-*Defined in [src/structures/MessageRaw.ts:18](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L18)*
+*Defined in [src/structures/MessageRaw.ts:18](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L18)*
 
 ___
 
@@ -141,7 +141,7 @@ ___
 
 •  **mentions**: object
 
-*Defined in [src/structures/MessageRaw.ts:17](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L17)*
+*Defined in [src/structures/MessageRaw.ts:17](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L17)*
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 •  **message\_reference**: [ReplyProps](../interfaces/_websocket_.replyprops.md)
 
-*Defined in [src/structures/MessageRaw.ts:26](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L26)*
+*Defined in [src/structures/MessageRaw.ts:26](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L26)*
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 •  **pinned**: boolean
 
-*Defined in [src/structures/MessageRaw.ts:23](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L23)*
+*Defined in [src/structures/MessageRaw.ts:23](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L23)*
 
 ___
 
@@ -165,7 +165,7 @@ ___
 
 •  **reactions**: object
 
-*Defined in [src/structures/MessageRaw.ts:22](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L22)*
+*Defined in [src/structures/MessageRaw.ts:22](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L22)*
 
 ___
 
@@ -173,7 +173,7 @@ ___
 
 •  **referenced\_message**: object
 
-*Defined in [src/structures/MessageRaw.ts:27](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L27)*
+*Defined in [src/structures/MessageRaw.ts:27](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L27)*
 
 ___
 
@@ -181,7 +181,7 @@ ___
 
 •  **stickers**: object
 
-*Defined in [src/structures/MessageRaw.ts:25](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L25)*
+*Defined in [src/structures/MessageRaw.ts:25](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L25)*
 
 ___
 
@@ -189,7 +189,7 @@ ___
 
 •  **timestamp**: number
 
-*Defined in [src/structures/MessageRaw.ts:14](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L14)*
+*Defined in [src/structures/MessageRaw.ts:14](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L14)*
 
 ___
 
@@ -197,7 +197,7 @@ ___
 
 •  **tts**: boolean
 
-*Defined in [src/structures/MessageRaw.ts:15](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L15)*
+*Defined in [src/structures/MessageRaw.ts:15](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L15)*
 
 ___
 
@@ -205,4 +205,4 @@ ___
 
 •  **type**: string
 
-*Defined in [src/structures/MessageRaw.ts:24](https://github.com/ourcord/ourcord/blob/1388589/src/structures/MessageRaw.ts#L24)*
+*Defined in [src/structures/MessageRaw.ts:24](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/MessageRaw.ts#L24)*

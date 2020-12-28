@@ -25,7 +25,7 @@
 
 Ƭ  **WSProperties**: { intents: object ; ping: number  }
 
-*Defined in [src/websocket.ts:27](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L27)*
+*Defined in [src/websocket.ts:27](https://github.com/ourcord/ourcord/blob/6675e55/src/websocket.ts#L27)*
 
 #### Type declaration:
 

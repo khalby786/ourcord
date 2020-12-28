@@ -29,7 +29,7 @@
 
 \+ **new Emoji**(`data`: [EmojiRaw](../interfaces/_structures_emojiraw_.emojiraw.md), `client`: [Client](_websocket_.client.md), `guild`: [Guild](../interfaces/_structures_guild_.guild.md)): [Emoji](_structures_emoji_.emoji.md)
 
-*Defined in [src/structures/emoji.ts:15](https://github.com/ourcord/ourcord/blob/1388589/src/structures/emoji.ts#L15)*
+*Defined in [src/structures/emoji.ts:15](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/emoji.ts#L15)*
 
 #### Parameters:
 
@@ -47,7 +47,7 @@ Name | Type |
 
 • `Optional` **animated**: boolean
 
-*Defined in [src/structures/emoji.ts:12](https://github.com/ourcord/ourcord/blob/1388589/src/structures/emoji.ts#L12)*
+*Defined in [src/structures/emoji.ts:12](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/emoji.ts#L12)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • `Optional` **delete**: Function
 
-*Defined in [src/structures/emoji.ts:15](https://github.com/ourcord/ourcord/blob/1388589/src/structures/emoji.ts#L15)*
+*Defined in [src/structures/emoji.ts:15](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/emoji.ts#L15)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 • `Optional` **guild**: [Guild](../interfaces/_structures_guild_.guild.md)
 
-*Defined in [src/structures/emoji.ts:9](https://github.com/ourcord/ourcord/blob/1388589/src/structures/emoji.ts#L9)*
+*Defined in [src/structures/emoji.ts:9](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/emoji.ts#L9)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 • `Optional` **id**: string
 
-*Defined in [src/structures/emoji.ts:6](https://github.com/ourcord/ourcord/blob/1388589/src/structures/emoji.ts#L6)*
+*Defined in [src/structures/emoji.ts:6](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/emoji.ts#L6)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 • `Optional` **managed**: boolean
 
-*Defined in [src/structures/emoji.ts:11](https://github.com/ourcord/ourcord/blob/1388589/src/structures/emoji.ts#L11)*
+*Defined in [src/structures/emoji.ts:11](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/emoji.ts#L11)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 • `Optional` **name**: string
 
-*Defined in [src/structures/emoji.ts:7](https://github.com/ourcord/ourcord/blob/1388589/src/structures/emoji.ts#L7)*
+*Defined in [src/structures/emoji.ts:7](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/emoji.ts#L7)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 • `Optional` **rename**: Function
 
-*Defined in [src/structures/emoji.ts:14](https://github.com/ourcord/ourcord/blob/1388589/src/structures/emoji.ts#L14)*
+*Defined in [src/structures/emoji.ts:14](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/emoji.ts#L14)*
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 • `Optional` **require\_colons**: boolean
 
-*Defined in [src/structures/emoji.ts:10](https://github.com/ourcord/ourcord/blob/1388589/src/structures/emoji.ts#L10)*
+*Defined in [src/structures/emoji.ts:10](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/emoji.ts#L10)*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 • `Optional` **roles**: Array<string\>
 
-*Defined in [src/structures/emoji.ts:8](https://github.com/ourcord/ourcord/blob/1388589/src/structures/emoji.ts#L8)*
+*Defined in [src/structures/emoji.ts:8](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/emoji.ts#L8)*
 
 ___
 
@@ -119,4 +119,4 @@ ___
 
 • `Optional` **url**: Function
 
-*Defined in [src/structures/emoji.ts:13](https://github.com/ourcord/ourcord/blob/1388589/src/structures/emoji.ts#L13)*
+*Defined in [src/structures/emoji.ts:13](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/emoji.ts#L13)*

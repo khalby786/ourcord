@@ -16,4 +16,4 @@
 
 •  **embed**: EmbedProperties[\"embed\"]
 
-*Defined in [src/websocket.ts:71](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L71)*
+*Defined in [src/websocket.ts:71](https://github.com/ourcord/ourcord/blob/6675e55/src/websocket.ts#L71)*

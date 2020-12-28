@@ -51,7 +51,7 @@
 
 • `Optional` **afk\_channel\_id**: string
 
-*Defined in [src/structures/Guild.ts:18](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L18)*
+*Defined in [src/structures/Guild.ts:18](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L18)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • `Optional` **afk\_timeout**: number
 
-*Defined in [src/structures/Guild.ts:19](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L19)*
+*Defined in [src/structures/Guild.ts:19](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L19)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 • `Optional` **application\_id**: string
 
-*Defined in [src/structures/Guild.ts:16](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L16)*
+*Defined in [src/structures/Guild.ts:16](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L16)*
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 • `Optional` **approximate\_member\_count**: number
 
-*Defined in [src/structures/Guild.ts:38](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L38)*
+*Defined in [src/structures/Guild.ts:38](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L38)*
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 • `Optional` **approximate\_presence\_count**: number
 
-*Defined in [src/structures/Guild.ts:39](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L39)*
+*Defined in [src/structures/Guild.ts:39](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L39)*
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 • `Optional` **banner**: string
 
-*Defined in [src/structures/Guild.ts:14](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L14)*
+*Defined in [src/structures/Guild.ts:14](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L14)*
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 • `Optional` **channels**: Map<string, [Channel](../classes/_structures_channel_.channel.md)\>
 
-*Defined in [src/structures/Guild.ts:40](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L40)*
+*Defined in [src/structures/Guild.ts:40](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L40)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 • `Optional` **default\_message\_notifications**: number
 
-*Defined in [src/structures/Guild.ts:25](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L25)*
+*Defined in [src/structures/Guild.ts:25](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L25)*
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 • `Optional` **description**: string
 
-*Defined in [src/structures/Guild.ts:9](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L9)*
+*Defined in [src/structures/Guild.ts:9](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L9)*
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 • `Optional` **discovery\_splash**: string
 
-*Defined in [src/structures/Guild.ts:11](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L11)*
+*Defined in [src/structures/Guild.ts:11](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L11)*
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 • `Optional` **emojis**: Array<[Emoji](../classes/_structures_emoji_.emoji.md)\>
 
-*Defined in [src/structures/Guild.ts:13](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L13)*
+*Defined in [src/structures/Guild.ts:13](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L13)*
 
 ___
 
@@ -139,7 +139,7 @@ ___
 
 • `Optional` **explicit\_content\_filter**: number
 
-*Defined in [src/structures/Guild.ts:27](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L27)*
+*Defined in [src/structures/Guild.ts:27](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L27)*
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 • `Optional` **features**: Array<string\>
 
-*Defined in [src/structures/Guild.ts:12](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L12)*
+*Defined in [src/structures/Guild.ts:12](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L12)*
 
 ___
 
@@ -155,7 +155,7 @@ ___
 
 • `Optional` **icon**: string
 
-*Defined in [src/structures/Guild.ts:8](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L8)*
+*Defined in [src/structures/Guild.ts:8](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L8)*
 
 ___
 
@@ -163,7 +163,7 @@ ___
 
 • `Optional` **id**: string
 
-*Defined in [src/structures/Guild.ts:6](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L6)*
+*Defined in [src/structures/Guild.ts:6](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L6)*
 
 ___
 
@@ -171,7 +171,7 @@ ___
 
 • `Optional` **max\_members**: number
 
-*Defined in [src/structures/Guild.ts:29](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L29)*
+*Defined in [src/structures/Guild.ts:29](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L29)*
 
 ___
 
@@ -179,7 +179,7 @@ ___
 
 • `Optional` **max\_presences**: number
 
-*Defined in [src/structures/Guild.ts:28](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L28)*
+*Defined in [src/structures/Guild.ts:28](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L28)*
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 • `Optional` **members**: Map<string, [Member](_structures_member_.member.md)\>
 
-*Defined in [src/structures/Guild.ts:41](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L41)*
+*Defined in [src/structures/Guild.ts:41](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L41)*
 
 ___
 
@@ -195,7 +195,7 @@ ___
 
 • `Optional` **mfa\_level**: number
 
-*Defined in [src/structures/Guild.ts:26](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L26)*
+*Defined in [src/structures/Guild.ts:26](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L26)*
 
 ___
 
@@ -203,7 +203,7 @@ ___
 
 • `Optional` **name**: string
 
-*Defined in [src/structures/Guild.ts:7](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L7)*
+*Defined in [src/structures/Guild.ts:7](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L7)*
 
 ___
 
@@ -211,7 +211,7 @@ ___
 
 • `Optional` **owner\_id**: string
 
-*Defined in [src/structures/Guild.ts:15](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L15)*
+*Defined in [src/structures/Guild.ts:15](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L15)*
 
 ___
 
@@ -219,7 +219,7 @@ ___
 
 • `Optional` **preferred\_locale**: string
 
-*Defined in [src/structures/Guild.ts:34](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L34)*
+*Defined in [src/structures/Guild.ts:34](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L34)*
 
 ___
 
@@ -227,7 +227,7 @@ ___
 
 • `Optional` **premium\_subscription\_count**: number
 
-*Defined in [src/structures/Guild.ts:32](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L32)*
+*Defined in [src/structures/Guild.ts:32](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L32)*
 
 ___
 
@@ -235,7 +235,7 @@ ___
 
 • `Optional` **premium\_tier**: number
 
-*Defined in [src/structures/Guild.ts:31](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L31)*
+*Defined in [src/structures/Guild.ts:31](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L31)*
 
 ___
 
@@ -243,7 +243,7 @@ ___
 
 • `Optional` **public\_updates\_channel\_id**: string
 
-*Defined in [src/structures/Guild.ts:36](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L36)*
+*Defined in [src/structures/Guild.ts:36](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L36)*
 
 ___
 
@@ -251,7 +251,7 @@ ___
 
 • `Optional` **region**: string
 
-*Defined in [src/structures/Guild.ts:17](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L17)*
+*Defined in [src/structures/Guild.ts:17](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L17)*
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 • `Optional` **roles**: Array<[Role](_structures_role_.role.md)\>
 
-*Defined in [src/structures/Guild.ts:24](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L24)*
+*Defined in [src/structures/Guild.ts:24](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L24)*
 
 ___
 
@@ -267,7 +267,7 @@ ___
 
 • `Optional` **rules\_channel\_id**: string
 
-*Defined in [src/structures/Guild.ts:35](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L35)*
+*Defined in [src/structures/Guild.ts:35](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L35)*
 
 ___
 
@@ -275,7 +275,7 @@ ___
 
 • `Optional` **splash**: string
 
-*Defined in [src/structures/Guild.ts:10](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L10)*
+*Defined in [src/structures/Guild.ts:10](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L10)*
 
 ___
 
@@ -283,7 +283,7 @@ ___
 
 • `Optional` **system\_channel\_flags**: number
 
-*Defined in [src/structures/Guild.ts:33](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L33)*
+*Defined in [src/structures/Guild.ts:33](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L33)*
 
 ___
 
@@ -291,7 +291,7 @@ ___
 
 • `Optional` **system\_channel\_id**: string
 
-*Defined in [src/structures/Guild.ts:20](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L20)*
+*Defined in [src/structures/Guild.ts:20](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L20)*
 
 ___
 
@@ -299,7 +299,7 @@ ___
 
 • `Optional` **unavailable**: boolean
 
-*Defined in [src/structures/Guild.ts:37](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L37)*
+*Defined in [src/structures/Guild.ts:37](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L37)*
 
 ___
 
@@ -307,7 +307,7 @@ ___
 
 • `Optional` **vanity\_url\_code**: string
 
-*Defined in [src/structures/Guild.ts:30](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L30)*
+*Defined in [src/structures/Guild.ts:30](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L30)*
 
 ___
 
@@ -315,7 +315,7 @@ ___
 
 • `Optional` **verification\_level**: number
 
-*Defined in [src/structures/Guild.ts:23](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L23)*
+*Defined in [src/structures/Guild.ts:23](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L23)*
 
 ___
 
@@ -323,7 +323,7 @@ ___
 
 • `Optional` **widget\_channel\_id**: string
 
-*Defined in [src/structures/Guild.ts:22](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L22)*
+*Defined in [src/structures/Guild.ts:22](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L22)*
 
 ___
 
@@ -331,4 +331,4 @@ ___
 
 • `Optional` **widget\_enabled**: boolean
 
-*Defined in [src/structures/Guild.ts:21](https://github.com/ourcord/ourcord/blob/1388589/src/structures/Guild.ts#L21)*
+*Defined in [src/structures/Guild.ts:21](https://github.com/ourcord/ourcord/blob/6675e55/src/structures/Guild.ts#L21)*

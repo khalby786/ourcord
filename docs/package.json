@@ -10,7 +10,7 @@
   "repository": "/vuepress-typedoc-test",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "bash docs.sh && vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {

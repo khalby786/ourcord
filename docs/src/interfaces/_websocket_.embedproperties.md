@@ -16,7 +16,7 @@
 
 •  **embed**: { author?: object ; color?: EmbedProperties[\"embed\"][\"colour\"] ; colour?: string \| number ; description?: string ; fields?: object[] ; footer?: object ; image?: string ; thumbnail?: string ; title?: string  }
 
-*Defined in [src/websocket.ts:37](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L37)*
+*Defined in [src/websocket.ts:37](https://github.com/ourcord/ourcord/blob/6675e55/src/websocket.ts#L37)*
 
 #### Type declaration:
 
