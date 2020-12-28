@@ -1,4 +1,4 @@
-# Module: "structures/user"
+# Module: "structures/User"
 
 ## Index
 

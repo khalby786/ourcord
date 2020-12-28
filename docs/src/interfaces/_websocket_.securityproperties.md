@@ -16,7 +16,7 @@
 
 • `Optional` **token**: { filter: boolean ; replaceWith?: string  }
 
-*Defined in [src/websocket.ts:48](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L48)*
+*Defined in [src/websocket.ts:51](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L51)*
 
 #### Type declaration:
 

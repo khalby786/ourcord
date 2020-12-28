@@ -7,7 +7,7 @@ sidebar: auto
 
 ## About
 
-Ourcord is a new and alternative discord library for js that focuses on speed and simplicity while retaining low level functions of the discord API
+Ourcord is a new and alternative discord library for js that focuses on speed and simplicity while retaining low level functions of the discord API.
 
 [![npm](https://img.shields.io/npm/v/ourcord?color=red&style=for-the-badge)](https://npmjs.com/package/ourcord)
 [![npm](https://img.shields.io/bundlephobia/min/ourcord?color=red&style=for-the-badge)](https://npmjs.com/package/ourcord)
@@ -34,12 +34,13 @@ That's it for installation 🎈
 ```js
 const { Client } = require("ourcord");
 const client = new Client("your bot token here");
-client.connect();
 
 client.on("ready", () => {
   console.log("Client connected!");
 });
 ```
+
+View the full documentation [here](https://ourcord.js.org).
 
 ---
 
@@ -62,20 +63,7 @@ client.on("ready", () => {
 ## Links
 
 [**Discord server**](https://discord.gg/3yDQKDXXdk)  
+
 [**Examples**](https://github.com/ourcord/examples)
 
----
-
-## Collaborators
-
-> [**Dice**](https://github.com/alebot-dev)
-
-> [**Matthew**](https://github.com/matthewthechickenman)
-
-> [**Misly**](https://github.com/Misly16)
-
-> [**Starman**](https://github.com/Starman3787)
-
-> [**Voltrex Master**](https://github.com/VoltrexMaster)
-
-> [**null**](https://github.com/vierofernando)
+[**Documentation**](https://ourcord.js.org)

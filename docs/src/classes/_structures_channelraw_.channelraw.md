@@ -33,7 +33,7 @@
 
 • `Optional` **applcation\_id**: string
 
-*Defined in [src/structures/ChannelRaw.ts:24](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L24)*
+*Defined in [src/structures/ChannelRaw.ts:24](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L24)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 • `Optional` **bitrate**: number
 
-*Defined in [src/structures/ChannelRaw.ts:18](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L18)*
+*Defined in [src/structures/ChannelRaw.ts:18](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L18)*
 
 ___
 
@@ -49,7 +49,7 @@ ___
 
 • `Optional` **guild\_id**: string
 
-*Defined in [src/structures/ChannelRaw.ts:11](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L11)*
+*Defined in [src/structures/ChannelRaw.ts:11](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L11)*
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 • `Optional` **icon**: string
 
-*Defined in [src/structures/ChannelRaw.ts:22](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L22)*
+*Defined in [src/structures/ChannelRaw.ts:22](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L22)*
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 •  **id**: string
 
-*Defined in [src/structures/ChannelRaw.ts:9](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L9)*
+*Defined in [src/structures/ChannelRaw.ts:9](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L9)*
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 • `Optional` **last\_message\_id**: string
 
-*Defined in [src/structures/ChannelRaw.ts:17](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L17)*
+*Defined in [src/structures/ChannelRaw.ts:17](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L17)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 • `Optional` **last\_pin\_timestamp**: Date
 
-*Defined in [src/structures/ChannelRaw.ts:26](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L26)*
+*Defined in [src/structures/ChannelRaw.ts:26](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L26)*
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 • `Optional` **name**: string
 
-*Defined in [src/structures/ChannelRaw.ts:14](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L14)*
+*Defined in [src/structures/ChannelRaw.ts:14](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L14)*
 
 ___
 
@@ -97,7 +97,7 @@ ___
 
 • `Optional` **nsfw**: boolean
 
-*Defined in [src/structures/ChannelRaw.ts:16](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L16)*
+*Defined in [src/structures/ChannelRaw.ts:16](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L16)*
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 • `Optional` **owner\_id**: string
 
-*Defined in [src/structures/ChannelRaw.ts:23](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L23)*
+*Defined in [src/structures/ChannelRaw.ts:23](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L23)*
 
 ___
 
@@ -113,7 +113,7 @@ ___
 
 • `Optional` **parent\_id**: string
 
-*Defined in [src/structures/ChannelRaw.ts:25](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L25)*
+*Defined in [src/structures/ChannelRaw.ts:25](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L25)*
 
 ___
 
@@ -121,7 +121,7 @@ ___
 
 • `Optional` **permission\_overwrites**: [PermissionOverwritesRaw](../interfaces/_structures_channelraw_.permissionoverwritesraw.md)[]
 
-*Defined in [src/structures/ChannelRaw.ts:13](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L13)*
+*Defined in [src/structures/ChannelRaw.ts:13](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L13)*
 
 ___
 
@@ -129,7 +129,7 @@ ___
 
 • `Optional` **position**: number
 
-*Defined in [src/structures/ChannelRaw.ts:12](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L12)*
+*Defined in [src/structures/ChannelRaw.ts:12](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L12)*
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 • `Optional` **rate\_limit\_per\_user**: number
 
-*Defined in [src/structures/ChannelRaw.ts:20](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L20)*
+*Defined in [src/structures/ChannelRaw.ts:20](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L20)*
 
 ___
 
@@ -145,7 +145,7 @@ ___
 
 • `Optional` **recipients**: object[]
 
-*Defined in [src/structures/ChannelRaw.ts:21](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L21)*
+*Defined in [src/structures/ChannelRaw.ts:21](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L21)*
 
 ___
 
@@ -153,7 +153,7 @@ ___
 
 • `Optional` **topic**: string
 
-*Defined in [src/structures/ChannelRaw.ts:15](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L15)*
+*Defined in [src/structures/ChannelRaw.ts:15](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L15)*
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 •  **type**: number
 
-*Defined in [src/structures/ChannelRaw.ts:10](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L10)*
+*Defined in [src/structures/ChannelRaw.ts:10](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L10)*
 
 ___
 
@@ -169,4 +169,4 @@ ___
 
 • `Optional` **user\_limit**: number
 
-*Defined in [src/structures/ChannelRaw.ts:19](https://github.com/ourcord/ourcord/blob/175a597/src/structures/ChannelRaw.ts#L19)*
+*Defined in [src/structures/ChannelRaw.ts:19](https://github.com/ourcord/ourcord/blob/1388589/src/structures/ChannelRaw.ts#L19)*

@@ -12,6 +12,7 @@
 
 ### Properties
 
+* [\_client](_structures_message_.message.md#_client)
 * [attachments](_structures_message_.message.md#attachments)
 * [author](_structures_message_.message.md#author)
 * [channel](_structures_message_.message.md#channel)
@@ -24,11 +25,17 @@
 * [mentions](_structures_message_.message.md#mentions)
 * [pinned](_structures_message_.message.md#pinned)
 * [reactions](_structures_message_.message.md#reactions)
+* [reply](_structures_message_.message.md#reply)
 * [replyTo](_structures_message_.message.md#replyto)
 * [stickers](_structures_message_.message.md#stickers)
 * [timestamp](_structures_message_.message.md#timestamp)
 * [tts](_structures_message_.message.md#tts)
 * [type](_structures_message_.message.md#type)
+
+### Methods
+
+* [delete](_structures_message_.message.md#delete)
+* [edit](_structures_message_.message.md#edit)
 
 ## Constructors
 
@@ -36,7 +43,7 @@
 
 \+ **new Message**(`data`: [MessageRaw](_structures_messageraw_.messageraw.md), `client`: [Client](_websocket_.client.md)): [Message](_structures_message_.message.md)
 
-*Defined in src/structures/Message.ts:24*
+*Defined in src/structures/Message.ts:27*
 
 #### Parameters:
 
@@ -49,19 +56,27 @@ Name | Type | Description |
 
 ## Properties
 
+### \_client
+
+•  **\_client**: [Client](_websocket_.client.md)
+
+*Defined in src/structures/Message.ts:27*
+
+___
+
 ### attachments
 
 •  **attachments**: object
 
-*Defined in src/structures/Message.ts:18*
+*Defined in src/structures/Message.ts:19*
 
 ___
 
 ### author
 
-•  **author**: object
+•  **author**: [User](_structures_user_.user.md)
 
-*Defined in src/structures/Message.ts:12*
+*Defined in src/structures/Message.ts:13*
 
 ___
 
@@ -69,7 +84,7 @@ ___
 
 •  **channel**: [Channel](_structures_channel_.channel.md)
 
-*Defined in src/structures/Message.ts:9*
+*Defined in src/structures/Message.ts:10*
 
 ___
 
@@ -77,7 +92,7 @@ ___
 
 •  **channel\_type**: number
 
-*Defined in src/structures/Message.ts:10*
+*Defined in src/structures/Message.ts:11*
 
 ___
 
@@ -85,7 +100,7 @@ ___
 
 •  **content**: string \| object
 
-*Defined in src/structures/Message.ts:14*
+*Defined in src/structures/Message.ts:15*
 
 ___
 
@@ -93,7 +108,7 @@ ___
 
 •  **embeds**: object
 
-*Defined in src/structures/Message.ts:19*
+*Defined in src/structures/Message.ts:20*
 
 ___
 
@@ -101,7 +116,7 @@ ___
 
 •  **guild**: object
 
-*Defined in src/structures/Message.ts:11*
+*Defined in src/structures/Message.ts:12*
 
 ___
 
@@ -109,15 +124,15 @@ ___
 
 •  **id**: string
 
-*Defined in src/structures/Message.ts:8*
+*Defined in src/structures/Message.ts:9*
 
 ___
 
 ### member
 
-•  **member**: object
+•  **member**: [Member](../interfaces/_structures_member_.member.md)
 
-*Defined in src/structures/Message.ts:13*
+*Defined in src/structures/Message.ts:14*
 
 ___
 
@@ -125,7 +140,7 @@ ___
 
 •  **mentions**: object
 
-*Defined in src/structures/Message.ts:17*
+*Defined in src/structures/Message.ts:18*
 
 ___
 
@@ -133,7 +148,7 @@ ___
 
 •  **pinned**: boolean
 
-*Defined in src/structures/Message.ts:21*
+*Defined in src/structures/Message.ts:22*
 
 ___
 
@@ -141,7 +156,15 @@ ___
 
 •  **reactions**: object
 
-*Defined in src/structures/Message.ts:20*
+*Defined in src/structures/Message.ts:21*
+
+___
+
+### reply
+
+•  **reply**: () => [Message](_structures_message_.message.md)
+
+*Defined in src/structures/Message.ts:26*
 
 ___
 
@@ -149,7 +172,7 @@ ___
 
 •  **replyTo**: object
 
-*Defined in src/structures/Message.ts:24*
+*Defined in src/structures/Message.ts:25*
 
 ___
 
@@ -157,7 +180,7 @@ ___
 
 •  **stickers**: object
 
-*Defined in src/structures/Message.ts:23*
+*Defined in src/structures/Message.ts:24*
 
 ___
 
@@ -165,7 +188,7 @@ ___
 
 •  **timestamp**: number
 
-*Defined in src/structures/Message.ts:15*
+*Defined in src/structures/Message.ts:16*
 
 ___
 
@@ -173,7 +196,7 @@ ___
 
 •  **tts**: boolean
 
-*Defined in src/structures/Message.ts:16*
+*Defined in src/structures/Message.ts:17*
 
 ___
 
@@ -181,4 +204,40 @@ ___
 
 •  **type**: string
 
-*Defined in src/structures/Message.ts:22*
+*Defined in src/structures/Message.ts:23*
+
+## Methods
+
+### delete
+
+▸ **delete**(`reason`: string): Promise<[Message](_structures_message_.message.md)\>
+
+*Defined in src/structures/Message.ts:73*
+
+The method used to delete the message.
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`reason` | string | The reason for deleting the message. |
+
+**Returns:** Promise<[Message](_structures_message_.message.md)\>
+
+___
+
+### edit
+
+▸ **edit**(`content`: string): Promise<any\>
+
+*Defined in src/structures/Message.ts:82*
+
+Edits the message.
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`content` | string | New content of the message. |
+
+**Returns:** Promise<any\>

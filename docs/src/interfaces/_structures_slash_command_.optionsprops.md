@@ -9,18 +9,28 @@
 ### Properties
 
 * [choices](_structures_slash_command_.optionsprops.md#choices)
+* [default](_structures_slash_command_.optionsprops.md#default)
 * [description](_structures_slash_command_.optionsprops.md#description)
 * [name](_structures_slash_command_.optionsprops.md#name)
 * [required](_structures_slash_command_.optionsprops.md#required)
 * [type](_structures_slash_command_.optionsprops.md#type)
+* [typeID](_structures_slash_command_.optionsprops.md#typeid)
 
 ## Properties
 
 ### choices
 
-•  **choices**: Array<{ name: string ; value: string  }\>
+• `Optional` **choices**: Array<{ name: string ; value: string  }\>
 
-*Defined in [src/structures/slash_command.ts:21](https://github.com/ourcord/ourcord/blob/175a597/src/structures/slash_command.ts#L21)*
+*Defined in [src/structures/slash_command.ts:21](https://github.com/ourcord/ourcord/blob/1388589/src/structures/slash_command.ts#L21)*
+
+___
+
+### default
+
+• `Optional` **default**: boolean
+
+*Defined in [src/structures/slash_command.ts:22](https://github.com/ourcord/ourcord/blob/1388589/src/structures/slash_command.ts#L22)*
 
 ___
 
@@ -28,7 +38,7 @@ ___
 
 •  **description**: string
 
-*Defined in [src/structures/slash_command.ts:9](https://github.com/ourcord/ourcord/blob/175a597/src/structures/slash_command.ts#L9)*
+*Defined in [src/structures/slash_command.ts:9](https://github.com/ourcord/ourcord/blob/1388589/src/structures/slash_command.ts#L9)*
 
 ___
 
@@ -36,20 +46,28 @@ ___
 
 •  **name**: string
 
-*Defined in [src/structures/slash_command.ts:8](https://github.com/ourcord/ourcord/blob/175a597/src/structures/slash_command.ts#L8)*
+*Defined in [src/structures/slash_command.ts:8](https://github.com/ourcord/ourcord/blob/1388589/src/structures/slash_command.ts#L8)*
 
 ___
 
 ### required
 
-•  **required**: boolean
+• `Optional` **required**: boolean
 
-*Defined in [src/structures/slash_command.ts:20](https://github.com/ourcord/ourcord/blob/175a597/src/structures/slash_command.ts#L20)*
+*Defined in [src/structures/slash_command.ts:20](https://github.com/ourcord/ourcord/blob/1388589/src/structures/slash_command.ts#L20)*
 
 ___
 
 ### type
 
-•  **type**: number \| \"SUB\_COMMAND\" \| \"SUB\_COMMAND\_GROUP\" \| \"STRING\" \| \"INTEGER\" \| \"BOOLEAN\" \| \"USER\" \| \"CHANNEL\" \| \"ROLE\"
+• `Optional` **type**: number
 
-*Defined in [src/structures/slash_command.ts:10](https://github.com/ourcord/ourcord/blob/175a597/src/structures/slash_command.ts#L10)*
+*Defined in [src/structures/slash_command.ts:19](https://github.com/ourcord/ourcord/blob/1388589/src/structures/slash_command.ts#L19)*
+
+___
+
+### typeID
+
+•  **typeID**: \"SUB\_COMMAND\" \| \"SUB\_COMMAND\_GROUP\" \| \"STRING\" \| \"INTEGER\" \| \"BOOLEAN\" \| \"USER\" \| \"CHANNEL\" \| \"ROLE\"
+
+*Defined in [src/structures/slash_command.ts:10](https://github.com/ourcord/ourcord/blob/1388589/src/structures/slash_command.ts#L10)*

@@ -13,28 +13,26 @@
 ### Properties
 
 * [avatar](_structures_user_.user.md#avatar)
+* [bot](_structures_user_.user.md#bot)
 * [discriminator](_structures_user_.user.md#discriminator)
-* [email](_structures_user_.user.md#email)
 * [flags](_structures_user_.user.md#flags)
 * [id](_structures_user_.user.md#id)
-* [premium\_type](_structures_user_.user.md#premium_type)
-* [public\_flags](_structures_user_.user.md#public_flags)
+* [name](_structures_user_.user.md#name)
 * [username](_structures_user_.user.md#username)
-* [verified](_structures_user_.user.md#verified)
 
 ## Constructors
 
 ### constructor
 
-\+ **new User**(`r`: object): [User](_structures_user_.user.md)
+\+ **new User**(`r`: [User](_structures_user_.user.md)): [User](_structures_user_.user.md)
 
-*Defined in [src/structures/user.ts:12](https://github.com/ourcord/ourcord/blob/175a597/src/structures/user.ts#L12)*
+*Defined in src/structures/User.ts:10*
 
 #### Parameters:
 
 Name | Type |
 ------ | ------ |
-`r` | object |
+`r` | [User](_structures_user_.user.md) |
 
 **Returns:** [User](_structures_user_.user.md)
 
@@ -44,7 +42,15 @@ Name | Type |
 
 •  **avatar**: string
 
-*Defined in [src/structures/user.ts:7](https://github.com/ourcord/ourcord/blob/175a597/src/structures/user.ts#L7)*
+*Defined in src/structures/User.ts:8*
+
+___
+
+### bot
+
+•  **bot**: boolean
+
+*Defined in src/structures/User.ts:9*
 
 ___
 
@@ -52,15 +58,7 @@ ___
 
 •  **discriminator**: string
 
-*Defined in [src/structures/user.ts:6](https://github.com/ourcord/ourcord/blob/175a597/src/structures/user.ts#L6)*
-
-___
-
-### email
-
-•  **email**: string
-
-*Defined in [src/structures/user.ts:9](https://github.com/ourcord/ourcord/blob/175a597/src/structures/user.ts#L9)*
+*Defined in src/structures/User.ts:7*
 
 ___
 
@@ -68,7 +66,7 @@ ___
 
 •  **flags**: number
 
-*Defined in [src/structures/user.ts:10](https://github.com/ourcord/ourcord/blob/175a597/src/structures/user.ts#L10)*
+*Defined in src/structures/User.ts:10*
 
 ___
 
@@ -76,23 +74,15 @@ ___
 
 •  **id**: string
 
-*Defined in [src/structures/user.ts:4](https://github.com/ourcord/ourcord/blob/175a597/src/structures/user.ts#L4)*
+*Defined in src/structures/User.ts:4*
 
 ___
 
-### premium\_type
+### name
 
-•  **premium\_type**: number
+•  **name**: string
 
-*Defined in [src/structures/user.ts:11](https://github.com/ourcord/ourcord/blob/175a597/src/structures/user.ts#L11)*
-
-___
-
-### public\_flags
-
-•  **public\_flags**: number
-
-*Defined in [src/structures/user.ts:12](https://github.com/ourcord/ourcord/blob/175a597/src/structures/user.ts#L12)*
+*Defined in src/structures/User.ts:6*
 
 ___
 
@@ -100,12 +90,4 @@ ___
 
 •  **username**: string
 
-*Defined in [src/structures/user.ts:5](https://github.com/ourcord/ourcord/blob/175a597/src/structures/user.ts#L5)*
-
-___
-
-### verified
-
-•  **verified**: boolean
-
-*Defined in [src/structures/user.ts:8](https://github.com/ourcord/ourcord/blob/175a597/src/structures/user.ts#L8)*
+*Defined in src/structures/User.ts:5*

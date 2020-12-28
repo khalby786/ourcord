@@ -1,0 +1,5 @@
+# Interface: Role
+
+## Hierarchy
+
+* **Role**

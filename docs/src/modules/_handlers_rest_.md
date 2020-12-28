@@ -12,7 +12,7 @@
 
 ▸ **restClient**(`id`: string): void
 
-*Defined in [src/handlers/rest.ts:4](https://github.com/ourcord/ourcord/blob/175a597/src/handlers/rest.ts#L4)*
+*Defined in [src/handlers/rest.ts:3](https://github.com/ourcord/ourcord/blob/1388589/src/handlers/rest.ts#L3)*
 
 #### Parameters:
 

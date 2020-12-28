@@ -1,4 +1,4 @@
-# Module: "structures/channel"
+# Module: "structures/Channel"
 
 ## Index
 

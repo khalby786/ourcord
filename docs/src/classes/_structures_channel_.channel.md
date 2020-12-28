@@ -37,7 +37,7 @@
 
 \+ **new Channel**(): [Channel](_structures_channel_.channel.md)
 
-*Defined in [src/structures/channel.ts:25](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L25)*
+*Defined in src/structures/Channel.ts:25*
 
 **Returns:** [Channel](_structures_channel_.channel.md)
 
@@ -47,7 +47,7 @@
 
 • `Optional` `Readonly` **application\_id**: string
 
-*Defined in [src/structures/channel.ts:22](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L22)*
+*Defined in src/structures/Channel.ts:22*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • `Optional` `Readonly` **bitrate**: number
 
-*Defined in [src/structures/channel.ts:16](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L16)*
+*Defined in src/structures/Channel.ts:16*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 • `Optional` `Readonly` **icon**: string
 
-*Defined in [src/structures/channel.ts:20](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L20)*
+*Defined in src/structures/Channel.ts:20*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 • `Readonly` **id**: string
 
-*Defined in [src/structures/channel.ts:8](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L8)*
+*Defined in src/structures/Channel.ts:8*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 • `Optional` `Readonly` **last\_message\_id**: string
 
-*Defined in [src/structures/channel.ts:15](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L15)*
+*Defined in src/structures/Channel.ts:15*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 • `Optional` `Readonly` **last\_pin\_timestamp**: string
 
-*Defined in [src/structures/channel.ts:24](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L24)*
+*Defined in src/structures/Channel.ts:24*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 • `Optional` `Readonly` **name**: string
 
-*Defined in [src/structures/channel.ts:12](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L12)*
+*Defined in src/structures/Channel.ts:12*
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 • `Optional` `Readonly` **nsfw**: boolean
 
-*Defined in [src/structures/channel.ts:14](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L14)*
+*Defined in src/structures/Channel.ts:14*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 • `Optional` `Readonly` **owner\_id**: string
 
-*Defined in [src/structures/channel.ts:21](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L21)*
+*Defined in src/structures/Channel.ts:21*
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 • `Optional` `Readonly` **parent\_id**: string
 
-*Defined in [src/structures/channel.ts:23](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L23)*
+*Defined in src/structures/Channel.ts:23*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 • `Optional` `Readonly` **permission\_overwrites**: object
 
-*Defined in [src/structures/channel.ts:11](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L11)*
+*Defined in src/structures/Channel.ts:11*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 • `Optional` `Readonly` **position**: number
 
-*Defined in [src/structures/channel.ts:10](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L10)*
+*Defined in src/structures/Channel.ts:10*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 • `Optional` `Readonly` **rate\_limit\_per\_user**: number
 
-*Defined in [src/structures/channel.ts:18](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L18)*
+*Defined in src/structures/Channel.ts:18*
 
 ___
 
@@ -151,15 +151,15 @@ ___
 
 • `Optional` `Readonly` **recipients**: object
 
-*Defined in [src/structures/channel.ts:19](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L19)*
+*Defined in src/structures/Channel.ts:19*
 
 ___
 
 ### send
 
-•  **send**: (content: string) => Promise<[Message](_structures_message_.message.md)\>
+•  **send**: (content: string \| [MessageRaw](_structures_messageraw_.messageraw.md)) => Promise<[Message](_structures_message_.message.md)\>
 
-*Defined in [src/structures/channel.ts:25](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L25)*
+*Defined in src/structures/Channel.ts:25*
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 • `Optional` `Readonly` **topic**: string
 
-*Defined in [src/structures/channel.ts:13](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L13)*
+*Defined in src/structures/Channel.ts:13*
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 • `Readonly` **type**: number
 
-*Defined in [src/structures/channel.ts:9](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L9)*
+*Defined in src/structures/Channel.ts:9*
 
 ___
 
@@ -183,4 +183,4 @@ ___
 
 • `Optional` `Readonly` **user\_limit**: number
 
-*Defined in [src/structures/channel.ts:17](https://github.com/ourcord/ourcord/blob/175a597/src/structures/channel.ts#L17)*
+*Defined in src/structures/Channel.ts:17*

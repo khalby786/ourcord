@@ -28,7 +28,7 @@
 
 \+ **new Cache**(`client`: [Client](_websocket_.client.md), `options?`: [ClientOptions](../interfaces/_websocket_.clientoptions.md)): [Cache](_caches_base_.cache.md)
 
-*Defined in [src/caches/base.ts:13](https://github.com/ourcord/ourcord/blob/175a597/src/caches/base.ts#L13)*
+*Defined in [src/caches/base.ts:13](https://github.com/ourcord/ourcord/blob/1388589/src/caches/base.ts#L13)*
 
 #### Parameters:
 
@@ -43,25 +43,25 @@ Name | Type |
 
 ### channels
 
-•  **channels**: [Channel](../interfaces/_structures_types_.channel.md)
+•  **channels**: Map<string, [Channel](_structures_channel_.channel.md)\>
 
-*Defined in [src/caches/base.ts:10](https://github.com/ourcord/ourcord/blob/175a597/src/caches/base.ts#L10)*
+*Defined in [src/caches/base.ts:10](https://github.com/ourcord/ourcord/blob/1388589/src/caches/base.ts#L10)*
 
 ___
 
 ### guilds
 
-•  **guilds**: [Guild](../interfaces/_structures_types_.guild.md)
+•  **guilds**: Map<string, [Guild](../interfaces/_structures_guild_.guild.md)\>
 
-*Defined in [src/caches/base.ts:11](https://github.com/ourcord/ourcord/blob/175a597/src/caches/base.ts#L11)*
+*Defined in [src/caches/base.ts:11](https://github.com/ourcord/ourcord/blob/1388589/src/caches/base.ts#L11)*
 
 ___
 
 ### members
 
-•  **members**: [Member](../interfaces/_structures_types_.member.md)
+•  **members**: Map<string, [Member](../interfaces/_structures_member_.member.md)\>
 
-*Defined in [src/caches/base.ts:13](https://github.com/ourcord/ourcord/blob/175a597/src/caches/base.ts#L13)*
+*Defined in [src/caches/base.ts:13](https://github.com/ourcord/ourcord/blob/1388589/src/caches/base.ts#L13)*
 
 ___
 
@@ -69,15 +69,15 @@ ___
 
 •  **options**: [ClientOptions](../interfaces/_websocket_.clientoptions.md)
 
-*Defined in [src/caches/base.ts:9](https://github.com/ourcord/ourcord/blob/175a597/src/caches/base.ts#L9)*
+*Defined in [src/caches/base.ts:9](https://github.com/ourcord/ourcord/blob/1388589/src/caches/base.ts#L9)*
 
 ___
 
 ### users
 
-•  **users**: [User](../interfaces/_structures_types_.user.md)
+•  **users**: Map<string, [User](_structures_user_.user.md)\>
 
-*Defined in [src/caches/base.ts:12](https://github.com/ourcord/ourcord/blob/175a597/src/caches/base.ts#L12)*
+*Defined in [src/caches/base.ts:12](https://github.com/ourcord/ourcord/blob/1388589/src/caches/base.ts#L12)*
 
 ## Methods
 
@@ -85,7 +85,7 @@ ___
 
 ▸ **_bind**(`client`: [Client](_websocket_.client.md)): void
 
-*Defined in [src/caches/base.ts:23](https://github.com/ourcord/ourcord/blob/175a597/src/caches/base.ts#L23)*
+*Defined in [src/caches/base.ts:23](https://github.com/ourcord/ourcord/blob/1388589/src/caches/base.ts#L23)*
 
 #### Parameters:
 

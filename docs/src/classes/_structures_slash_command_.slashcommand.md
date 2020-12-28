@@ -16,7 +16,7 @@
 
 \+ **new SlashCommand**(`client`: [Client](_websocket_.client.md), `config`: [SlashConfig](../interfaces/_structures_slash_command_.slashconfig.md)): [SlashCommand](_structures_slash_command_.slashcommand.md)
 
-*Defined in [src/structures/slash_command.ts:30](https://github.com/ourcord/ourcord/blob/175a597/src/structures/slash_command.ts#L30)*
+*Defined in [src/structures/slash_command.ts:42](https://github.com/ourcord/ourcord/blob/1388589/src/structures/slash_command.ts#L42)*
 
 #### Parameters:
 

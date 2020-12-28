@@ -36,10 +36,13 @@
 
 * [\_GetRestUser](_websocket_.client.md#_getrestuser)
 * [\_MessageEmbed](_websocket_.client.md#_messageembed)
+* [\_deleteEmoji](_websocket_.client.md#_deleteemoji)
+* [\_modifyEmoji](_websocket_.client.md#_modifyemoji)
 * [\_sendMessage](_websocket_.client.md#_sendmessage)
 * [addListener](_websocket_.client.md#addlistener)
 * [connect](_websocket_.client.md#connect)
 * [createChannel](_websocket_.client.md#createchannel)
+* [createSlashCommand](_websocket_.client.md#createslashcommand)
 * [destroy](_websocket_.client.md#destroy)
 * [emit](_websocket_.client.md#emit)
 * [evaluate](_websocket_.client.md#evaluate)
@@ -70,7 +73,7 @@
 
 *Overrides void*
 
-*Defined in [src/websocket.ts:88](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L88)*
+*Defined in [src/websocket.ts:102](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L102)*
 
 The main client constructor.
 
@@ -89,7 +92,7 @@ Name | Type | Description |
 
 •  **activities**: any
 
-*Defined in [src/websocket.ts:84](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L84)*
+*Defined in [src/websocket.ts:98](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L98)*
 
 ___
 
@@ -97,7 +100,7 @@ ___
 
 •  **cache**: any
 
-*Defined in [src/websocket.ts:86](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L86)*
+*Defined in [src/websocket.ts:100](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L100)*
 
 ___
 
@@ -105,7 +108,7 @@ ___
 
 •  **config**: [ClientOptions](../interfaces/_websocket_.clientoptions.md)
 
-*Defined in [src/websocket.ts:85](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L85)*
+*Defined in [src/websocket.ts:99](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L99)*
 
 ___
 
@@ -113,7 +116,7 @@ ___
 
 • `Readonly` **hb**: Timeout
 
-*Defined in [src/websocket.ts:81](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L81)*
+*Defined in [src/websocket.ts:95](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L95)*
 
 ___
 
@@ -121,7 +124,7 @@ ___
 
 •  **security**: [SecurityProperties](../interfaces/_websocket_.securityproperties.md)
 
-*Defined in [src/websocket.ts:88](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L88)*
+*Defined in [src/websocket.ts:102](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L102)*
 
 ___
 
@@ -129,7 +132,7 @@ ___
 
 •  **socket**: any
 
-*Defined in [src/websocket.ts:83](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L83)*
+*Defined in [src/websocket.ts:97](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L97)*
 
 ___
 
@@ -137,7 +140,7 @@ ___
 
 • `Readonly` **token**: string
 
-*Defined in [src/websocket.ts:80](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L80)*
+*Defined in [src/websocket.ts:94](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L94)*
 
 ___
 
@@ -145,7 +148,7 @@ ___
 
 • `Readonly` **user**: [User](_structures_user_.user.md)
 
-*Defined in [src/websocket.ts:82](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L82)*
+*Defined in [src/websocket.ts:96](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L96)*
 
 ___
 
@@ -153,7 +156,7 @@ ___
 
 •  **ws**: [WSProperties](../modules/_websocket_.md#wsproperties)
 
-*Defined in [src/websocket.ts:87](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L87)*
+*Defined in [src/websocket.ts:101](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L101)*
 
 ___
 
@@ -189,7 +192,7 @@ regular `'error'` listener is installed.
 
 ▸ **_GetRestUser**(`userID`: string): Promise<[User](_structures_user_.user.md)\>
 
-*Defined in [src/websocket.ts:229](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L229)*
+*Defined in [src/websocket.ts:276](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L276)*
 
 The method used to fetch a user from the rest discord API.
 
@@ -207,7 +210,7 @@ ___
 
 ▸ **_MessageEmbed**(`channel`: string, `options`: [EmbedProperties](../interfaces/_websocket_.embedproperties.md)): Promise<any\>
 
-*Defined in [src/websocket.ts:219](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L219)*
+*Defined in [src/websocket.ts:266](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L266)*
 
 The method used to send an embed in a TextChannel.
 
@@ -222,11 +225,51 @@ Name | Type | Description |
 
 ___
 
+### \_deleteEmoji
+
+▸ **_deleteEmoji**(`guild`: string, `emoji`: string): Promise<boolean\>
+
+*Defined in [src/websocket.ts:181](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L181)*
+
+Method to delete an emoji
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`guild` | string | ID of the Guild that the Emoji belongs to |
+`emoji` | string | ID of the Emoji that is to be deleted  |
+
+**Returns:** Promise<boolean\>
+
+___
+
+### \_modifyEmoji
+
+▸ **_modifyEmoji**(`guild`: string, `emoji`: string, `name?`: string, `roles?`: Array<string\>): Promise<[EmojiRaw](../interfaces/_structures_emojiraw_.emojiraw.md)\>
+
+*Defined in [src/websocket.ts:168](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L168)*
+
+Method to update an Emoji
+
+#### Parameters:
+
+Name | Type | Description |
+------ | ------ | ------ |
+`guild` | string | ID of the Guild that the Emoji belongs to |
+`emoji` | string | ID of the Emoji that is to be modified |
+`name?` | string | New name of the Emoji |
+`roles?` | Array<string\> | Array of all Role ids which should be whitelisted to the emoji  |
+
+**Returns:** Promise<[EmojiRaw](../interfaces/_structures_emojiraw_.emojiraw.md)\>
+
+___
+
 ### \_sendMessage
 
-▸ **_sendMessage**(`channel`: string, `content`: string \| object): Promise<[MessageRaw](_structures_messageraw_.messageraw.md)\>
+▸ **_sendMessage**(`channel`: string, `content`: string \| [MessageProperties](../interfaces/_websocket_.messageproperties.md)): Promise<[MessageRaw](_structures_messageraw_.messageraw.md)\>
 
-*Defined in [src/websocket.ts:199](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L199)*
+*Defined in [src/websocket.ts:246](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L246)*
 
 The method used to send a message to a TextChannel.
 
@@ -235,7 +278,7 @@ The method used to send a message to a TextChannel.
 Name | Type | Description |
 ------ | ------ | ------ |
 `channel` | string | ID of the TextChannel the message will be sent in. |
-`content` | string \| object | The body of the message. |
+`content` | string \| [MessageProperties](../interfaces/_websocket_.messageproperties.md) | The body of the message. |
 
 **Returns:** Promise<[MessageRaw](_structures_messageraw_.messageraw.md)\>
 
@@ -264,7 +307,7 @@ ___
 
 ▸ **connect**(): void
 
-*Defined in [src/websocket.ts:151](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L151)*
+*Defined in [src/websocket.ts:190](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L190)*
 
 The method used to connect to the gateway.
 
@@ -276,7 +319,7 @@ ___
 
 ▸ **createChannel**(`g`: string, `name`: string): Promise<any\>
 
-*Defined in [src/websocket.ts:301](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L301)*
+*Defined in [src/websocket.ts:348](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L348)*
 
 The method used to create a GuildChannel.
 
@@ -291,11 +334,27 @@ Name | Type | Description |
 
 ___
 
+### createSlashCommand
+
+▸ **createSlashCommand**(`SlashConfig`: [SlashConfig](../interfaces/_structures_slash_command_.slashconfig.md)): Promise<[SlashCommand](_structures_slash_command_.slashcommand.md)\>
+
+*Defined in [src/websocket.ts:223](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L223)*
+
+#### Parameters:
+
+Name | Type |
+------ | ------ |
+`SlashConfig` | [SlashConfig](../interfaces/_structures_slash_command_.slashconfig.md) |
+
+**Returns:** Promise<[SlashCommand](_structures_slash_command_.slashcommand.md)\>
+
+___
+
 ### destroy
 
 ▸ **destroy**(`reason?`: string): void
 
-*Defined in [src/websocket.ts:175](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L175)*
+*Defined in [src/websocket.ts:214](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L214)*
 
 The method used to destroy the client and close the connection to the websocket.
 
@@ -332,7 +391,7 @@ ___
 
 ▸ **evaluate**(`data`: any, `flag`: any): string
 
-*Defined in [src/websocket.ts:263](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L263)*
+*Defined in [src/websocket.ts:310](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L310)*
 
 Evaluates under the hood stuff.
 
@@ -361,11 +420,11 @@ ___
 
 ### getGlobalSlashcommands
 
-▸ **getGlobalSlashcommands**(): Promise<[SlashConfig](../interfaces/_structures_slash_command_.slashconfig.md)\>
+▸ **getGlobalSlashcommands**(): Promise<Array<[SlashConfig](../interfaces/_structures_slash_command_.slashconfig.md)\>\>
 
-*Defined in [src/websocket.ts:183](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L183)*
+*Defined in [src/websocket.ts:230](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L230)*
 
-**Returns:** Promise<[SlashConfig](../interfaces/_structures_slash_command_.slashconfig.md)\>
+**Returns:** Promise<Array<[SlashConfig](../interfaces/_structures_slash_command_.slashconfig.md)\>\>
 
 ___
 
@@ -385,7 +444,7 @@ ___
 
 ▸ **getMetaData**(): any
 
-*Defined in [src/websocket.ts:238](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L238)*
+*Defined in [src/websocket.ts:285](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L285)*
 
 The method used to get the metadata.
 
@@ -454,7 +513,7 @@ ___
 
 *Overrides void*
 
-*Defined in [src/websocket.ts:68](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L68)*
+*Defined in [src/websocket.ts:82](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L82)*
 
 #### Parameters:
 
@@ -469,7 +528,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [src/websocket.ts:69](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L69)*
+*Defined in [src/websocket.ts:83](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L83)*
 
 #### Parameters:
 
@@ -484,7 +543,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [src/websocket.ts:70](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L70)*
+*Defined in [src/websocket.ts:84](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L84)*
 
 #### Parameters:
 
@@ -499,7 +558,7 @@ Name | Type |
 
 *Overrides void*
 
-*Defined in [src/websocket.ts:71](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L71)*
+*Defined in [src/websocket.ts:85](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L85)*
 
 #### Parameters:
 
@@ -628,7 +687,7 @@ ___
 
 ▸ **request**(`method`: string, `path`: string, `body?`: object): Promise<Response \| any\>
 
-*Defined in [src/websocket.ts:136](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L136)*
+*Defined in [src/websocket.ts:151](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L151)*
 
 Requests to a specific discord API endpoint.
 
@@ -666,7 +725,7 @@ ___
 
 ▸ **setStatus**(`t`: \"online\" \| \"idle\" \| \"dnd\" \| \"invisible\"): void
 
-*Defined in [src/websocket.ts:277](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L277)*
+*Defined in [src/websocket.ts:324](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L324)*
 
 The method used to set the status of the client.
 

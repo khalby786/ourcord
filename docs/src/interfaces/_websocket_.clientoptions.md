@@ -14,6 +14,8 @@
 * [cacheGuilds](_websocket_.clientoptions.md#cacheguilds)
 * [cacheMembers](_websocket_.clientoptions.md#cachemembers)
 * [cacheUsers](_websocket_.clientoptions.md#cacheusers)
+* [defaultImageFormat](_websocket_.clientoptions.md#defaultimageformat)
+* [defaultImageSize](_websocket_.clientoptions.md#defaultimagesize)
 * [device](_websocket_.clientoptions.md#device)
 * [intents](_websocket_.clientoptions.md#intents)
 * [prefix](_websocket_.clientoptions.md#prefix)
@@ -26,7 +28,7 @@
 
 • `Optional` **activity**: { name: string ; type: number  }
 
-*Defined in [src/websocket.ts:60](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L60)*
+*Defined in [src/websocket.ts:63](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L63)*
 
 #### Type declaration:
 
@@ -41,7 +43,7 @@ ___
 
 • `Optional` **browser**: string
 
-*Defined in [src/websocket.ts:53](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L53)*
+*Defined in [src/websocket.ts:56](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L56)*
 
 ___
 
@@ -49,7 +51,7 @@ ___
 
 • `Optional` **cacheChannels**: boolean
 
-*Defined in [src/websocket.ts:56](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L56)*
+*Defined in [src/websocket.ts:59](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L59)*
 
 ___
 
@@ -57,7 +59,7 @@ ___
 
 • `Optional` **cacheGuilds**: boolean
 
-*Defined in [src/websocket.ts:57](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L57)*
+*Defined in [src/websocket.ts:60](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L60)*
 
 ___
 
@@ -65,7 +67,7 @@ ___
 
 • `Optional` **cacheMembers**: boolean
 
-*Defined in [src/websocket.ts:59](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L59)*
+*Defined in [src/websocket.ts:62](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L62)*
 
 ___
 
@@ -73,7 +75,23 @@ ___
 
 • `Optional` **cacheUsers**: boolean
 
-*Defined in [src/websocket.ts:58](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L58)*
+*Defined in [src/websocket.ts:61](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L61)*
+
+___
+
+### defaultImageFormat
+
+• `Optional` **defaultImageFormat**: \"png\" \| \"jpg\" \| \"jpeg\" \| \"webp\" \| \"gif\"
+
+*Defined in [src/websocket.ts:66](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L66)*
+
+___
+
+### defaultImageSize
+
+• `Optional` **defaultImageSize**: number
+
+*Defined in [src/websocket.ts:67](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L67)*
 
 ___
 
@@ -81,7 +99,7 @@ ___
 
 • `Optional` **device**: string
 
-*Defined in [src/websocket.ts:54](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L54)*
+*Defined in [src/websocket.ts:57](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L57)*
 
 ___
 
@@ -89,7 +107,7 @@ ___
 
 • `Optional` **intents**: number
 
-*Defined in [src/websocket.ts:52](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L52)*
+*Defined in [src/websocket.ts:55](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L55)*
 
 ___
 
@@ -97,7 +115,7 @@ ___
 
 • `Optional` **prefix**: string
 
-*Defined in [src/websocket.ts:55](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L55)*
+*Defined in [src/websocket.ts:58](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L58)*
 
 ___
 
@@ -105,7 +123,7 @@ ___
 
 • `Optional` **security**: [SecurityProperties](_websocket_.securityproperties.md)
 
-*Defined in [src/websocket.ts:61](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L61)*
+*Defined in [src/websocket.ts:64](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L64)*
 
 ___
 
@@ -113,4 +131,4 @@ ___
 
 • `Optional` **status**: \"online\" \| \"idle\" \| \"dnd\" \| \"invisible\"
 
-*Defined in [src/websocket.ts:62](https://github.com/ourcord/ourcord/blob/175a597/src/websocket.ts#L62)*
+*Defined in [src/websocket.ts:65](https://github.com/ourcord/ourcord/blob/1388589/src/websocket.ts#L65)*
